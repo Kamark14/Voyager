@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="KaMark14, Kauã Marques, @kamarques_14">
+    <meta name="description"
+        content="Voyager - Sua Agência de Viagens. Descubra destinos incríveis e pacotes exclusivos para suas próximas férias.">
+    <meta name="keywords"
+        content="agência de viagens, pacotes de viagem, destinos turísticos, férias, viagens internacionais, viagens nacionais, ofertas de viagem">
+    <title>Voyager - Sua Agência de Viagens</title>
+    <link rel="stylesheet" href="assets/CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Voyager</a>
+            <nav class="nav">
+                <button class="mobile-menu" aria-label="Abrir menu" aria-haspopup="true" aria-controls="menu"
+                    aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="menu" id="menu">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#destinos">Destinos</a></li>
+                    <li><a href="#pacotes">Pacotes</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <i class="fas fa-user"></i>
+                    <!-- Ícone de usuário para login/cadastro (Assim que pressionado aparecerá o modal)-->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h1>Explore o Mundo com a Voyager</h1>
+            <p>Descubra os melhores destinos com pacotes exclusivos</p>
+            <a href="#destinos" class="btn">Explorar Destinos</a>
+        </div>
+    </section>
+
+    <section class="destinos" id="destinos">
+        <div class="container">
+            <h2 class="section-title">Destinos Populares</h2>
+            <div class="destinos-grid">
+                <!-- Destinos serão carregados via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section class="ofertas" id="pacotes">
+        <div class="container">
+            <h2 class="section-title">Pacotes em Oferta</h2>
+            <div class="ofertas-carrossel">
+                <!-- Ofertas serão carregadas via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+        <div class="container">
+            <div class="sobre-content">
+                <h2 class="section-title">Sobre Nós</h2>
+                <p>A Voyager é uma agência de viagens especializada em criar experiências únicas e memoráveis. Com mais
+                    de 15 anos de experiência, ajudamos milhares de clientes a realizar o sonho de conhecer novos
+                    lugares.</p>
+                <p>Nossa equipe de especialistas está sempre pronta para oferecer o melhor atendimento e garantir que
+                    sua viagem seja perfeita em todos os detalhes.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="15">15</span>
+                        <span class="stat-label">Anos de Experiência</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="12000">12K</span>
+                        <span class="stat-label">Clientes Satisfeitos</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="50">50</span>
+                        <span class="stat-label">Destinos</span>
+                    </div>
+                </div>
+            </div>
+            <div class="sobre-image">
+                <img src="assets/Img/equipe.png" alt="Equipe Voyager">
+            </div>
+        </div>
+    </section>
+
+    <section class="depoimentos">
+        <div class="container">
+            <h2 class="section-title">O que nossos clientes dizem</h2>
+            <div class="depoimentos-carrossel">
+                <!-- Depoimentos serão carregados via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section class="contato" id="contato">
+        <div class="container">
+            <div class="contato-form">
+                <h2 class="section-title">Entre em Contato</h2>
+                <form id="form-contato">
+                    <div class="form-group">
+                        <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder="Seu e-mail">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="telefone" name="telefone" placeholder="Seu telefone">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="mensagem" name="mensagem" required placeholder="Sua mensagem"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar Mensagem</button>
+                </form>
+            </div>
+            <div class="contato-info">
+                <h3>Informações de Contato</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Av. das Viagens, 123 - Centro, São Paulo/SP</li>
+                    <li><i class="fas fa-phone"></i> (11) 1234-5678</li>
+                    <li><i class="fas fa-envelope"></i> contato@voyager.com.br</li>
+                </ul>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Voyager</h3>
+                    <p>Sua agência de viagens de confiança, criando experiências memoráveis desde 2008.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#destinos">Destinos</a></li>
+                        <li><a href="#pacotes">Pacotes</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Assine nossa newsletter para receber ofertas exclusivas.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Seu e-mail" required>
+                        <button type="submit" class="btn">Assinar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&#xae; 2025 Voyager Agência de Viagens. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal de login/Cadastro -->
+    <div class="modal" id="modal-login">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-tabs">
+                <button class="tab-btn active" data-tab="login">Login</button>
+                <button class="tab-btn" data-tab="cadastro">Cadastro</button>
+            </div>
+
+            <div class="tab-content active" id="login-tab">
+                <h2>Login</h2>
+                <form id="form-login">
+                    <div class="form-group">
+                        <input type="email" id="login-email" name="email" required placeholder="Seu e-mail">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" id="login-senha" name="senha" required placeholder="Sua senha">
+                    </div>
+                    <button type="submit" class="btn">Entrar</button>
+                    <p class="modal-link">Esqueceu sua senha? <a href="#">Clique aqui</a></p>
+                </form>
+            </div>
+
+            <div class="tab-content" id="cadastro-tab">
+                <h2>Criar Conta</h2>
+                <form id="form-cadastro">
+                    <div class="form-group">
+                        <input type="text" id="cadastro-nome" name="nome" required placeholder="Seu nome completo">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="cadastro-email" name="email" required placeholder="Seu e-mail">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" id="cadastro-senha" name="senha" required placeholder="Crie uma senha">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" id="cadastro-confirmar" name="confirmar" required
+                            placeholder="Confirme sua senha">
+                    </div>
+                    <button type="submit" class="btn">Criar Conta</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Detalhes-->
+    <div class="modal" id="modal-detalhes">
+        <div class="modal-content modal-lg">
+            <span class="close">&times;</span>
+            <div class="detalhes-container">
+                <div class="detalhes-imagem">
+                    <img id="detalhes-img" src="" alt="">
+                </div>
+                <div class="detalhes-info">
+                    <h2 id="detalhes-titulo"></h2>
+                    <p id="detalhes-descricao"></p>
+                    <div class="detalhes-caracteristicas">
+                        <div class="caracteristica">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span id="detalhes-local"></span>
+                        </div>
+                        <div class="caracteristica">
+                            <i class="far fa-calendar-alt"></i>
+                            <span id="detalhes-duracao"></span>
+                        </div>
+                        <div class="caracteristica">
+                            <i class="fas fa-dollar-sign"></i>
+                            <span id="detalhes-preco"></span>
+                        </div>
+                    </div>
+                    <h3>O que inclui:</h3>
+                    <ul id="detalhes-incluso">
+                        <!-- Será preenchido via JavaScript -->
+                    </ul>
+                    <button class="btn btn-reservar">Fazer Reserva</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Reservar-->
+    <div class="modal" id="modal-reserva">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Reservar Viagem</h2>
+            <form id="form-reserva">
+                <div class="resumo-viagem">
+                    <h3 id="reserva-titulo"></h3>
+                    <p id="reserva-preco"></p>
+                </div>
+                <div class="form-group">
+                    <label for="reserva-data">Data da Viagem</label>
+                    <input type="date" id="reserva-data" name="data" required>
+                </div>
+                <div class="form-group">
+                    <label for="reserva-pessoas">Número de Pessoas</label>
+                    <select id="reserva-pessoas" name="pessoas" required>
+                        <option value="">Selecione</option>
+                        <option value="1">1 pessoa</option>
+                        <option value="2">2 pessoas</option>
+                        <option value="3">3 pessoas</option>
+                        <option value="4">4 pessoas</option>
+                        <option value="5">5 ou mais pessoas</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="reserva-nome">Nome Completo</label>
+                    <input type="text" id="reserva-nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="reserva-email">E-mail</label>
+                    <input type="email" id="reserva-email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="reserva-telefone">Telefone</label>
+                    <input type="tel" id="reserva-telefone" name="telefone" required>
+                </div>
+                <button type="submit" class="btn">Confirmar Reserva</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+<script src="assets/JS/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+</html>
