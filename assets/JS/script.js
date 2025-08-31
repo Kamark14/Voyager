@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function () {
             preco: 'R$ 8.999'
         },
         {
-            img: 'https://www.elissalles.com.br/imagens/roma_italia(1).jpg',
+            img: 'https://www.residenzamaritti.com/wp-content/uploads/2016/09/colosseo.jpg',
             titulo: 'Tour Cultural',
             local: 'Roma, Itália',
             duracao: '5 noites',
@@ -508,4 +508,5 @@ function abrirModalReserva(dados) {
 }
 
 // Inicializar modais quando o DOM estiver carregado
+
 document.addEventListener('DOMContentLoaded', criarModais);
