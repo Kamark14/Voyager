@@ -368,7 +368,7 @@ function criarModais() {
     formLogin.addEventListener('submit', (e) => {
         e.preventDefault();
         // Simular login bem-sucedido
-        alert('Login realizado com sucesso!');
+        alert('Simulação de login realizado com sucesso!');
         fecharModal(modalLogin);
     });
 
@@ -377,7 +377,7 @@ function criarModais() {
     formCadastro.addEventListener('submit', (e) => {
         e.preventDefault();
         // Simular cadastro bem-sucedido
-        alert('Cadastro realizado com sucesso!');
+        alert('Simulação de cadastro realizado com sucesso!');
         fecharModal(modalLogin);
     });
 
@@ -386,7 +386,7 @@ function criarModais() {
     formReserva.addEventListener('submit', (e) => {
         e.preventDefault();
         // Simular reserva bem-sucedida
-        alert('Reserva confirmada com sucesso! Em breve entraremos em contato.');
+        alert('Simulação de reserva confirmada com sucesso! Em breve entraremos em contato.');
         fecharModal(modalReserva);
     });
 
@@ -510,3 +510,4 @@ function abrirModalReserva(dados) {
 // Inicializar modais quando o DOM estiver carregado
 
 document.addEventListener('DOMContentLoaded', criarModais);
+
