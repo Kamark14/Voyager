@@ -33,6 +33,8 @@
                     <li><a href="#contato">Contato</a></li>
                     <i class="fas fa-user"></i>
                     <!-- Ícone de usuário para login/cadastro (Assim que pressionado aparecerá o modal)-->
+                     <a href="#" class="cart-icon"><i class="fas fa-shopping-bag"></i><span class="cart-count">0</span></a>
+                     <!-- Carrinho Interativo (Assim que clicar, aparecerá o modal)-->
                 </ul>
             </nav>
         </div>
@@ -291,6 +293,26 @@
                 </div>
                 <button type="submit" class="btn">Confirmar Reserva</button>
             </form>
+        </div>
+    </div>
+
+    <!-- Carrinho de Compras -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <div class="cart-header">
+                <h3>Seu Carrinho</h3>
+                <button class="close-cart"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="cart-content">
+                <!-- Itens do carrinho serão inseridos via JavaScript -->
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <h4>Total: </h4>
+                    <span class="total-amount">R$ 0,00</span>
+                </div>
+                <button class="checkout-btn btn">Finalizar Compra</button>
+            </div>
         </div>
     </div>
 
